@@ -101,22 +101,15 @@ function askAndRespond() {
                     let tempF = (tempC * 9/5) + 32
                     console.log(tempF)
                     document.getElementById("ans").innerHTML = `The Temperature is ${tempC}&deg; Celsius, ${tempF}&deg; Fahrenheit`
-                })
-                
-
-
-            
-                  }
-                 
-           
+                     }) 
                 }
+        } else {
+            document.getElementById("ans").innerHTML = "I'm sorry, I don't understand"
+        } 
 
             
             }
-    )
-            
-
-
+        )
         
     }
 
